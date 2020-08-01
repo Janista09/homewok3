@@ -25,10 +25,11 @@ int main()
 	quizztotal = (q1+q2+q3) /3;
 	scoretotal = quizztotal + mid + final;
 
-	cout <<"Quizz Total : " << quizztotal << endl;
-	cout <<"Final  : " << final << endl;
-	cout <<"Total  : " << scoretotal << endl;
-	cout <<"Your score is " << (scoretotal >= 50? "PASS" : "FAL ") <<endl;
+	cout << "Quizz Total : " << quizztotal << endl;
+	cout << "Mid term : " << mid << endl;
+	cout << "Final  : " << final << endl;
+	cout << "Total  : " << scoretotal << endl;
+	cout << "Your score is " << (scoretotal >= 50? "PASS" : "FAL ") <<endl;
 
 	system ("pause");
 	return(0);
