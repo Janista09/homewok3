@@ -29,7 +29,7 @@ int main()
 	cout << "Mid term : " << mid << endl;
 	cout << "Final  : " << final << endl;
 	cout << "Total  : " << scoretotal << endl;
-	cout << "Your score is " << (scoretotal >= 50? "PASS" : "FAL ") <<endl;
+	cout << "Your score is " << (scoretotal >= 50? "PASS" : "FAIL ") <<endl;
 
 	system ("pause");
 	return(0);
